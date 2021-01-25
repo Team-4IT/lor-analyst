@@ -1,4 +1,4 @@
-package foit.product.loranalyst.ui.model
+package foit.product.loranalyst.vo.card
 
 
 import com.google.gson.annotations.SerializedName
