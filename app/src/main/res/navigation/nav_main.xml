@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/cardGalleryFragment">
+
+    <fragment
+        android:id="@+id/cardGalleryFragment"
+        android:name="foit.product.loranalyst.ui.gallery.CardGalleryFragment"
+        android:label="CardGalleryFragment"
+        tools:layout="@layout/fragment_card_gallery" >
+        <action
+            android:id="@+id/nav_cardDetail"
+            app:destination="@id/cardDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardDetailFragment"
+        android:name="foit.product.loranalyst.ui.gallery.CardDetailFragment"
+        android:label="CardDetailFragment"
+        tools:layout="@layout/fragment_card_detail" />
+</navigation>

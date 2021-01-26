@@ -30,7 +30,7 @@ class CardGalleryViewModel(
                 if (networkHelper.isNetworkConnected()) {
                     cardGalleryRepository.getCardGallery().let {
                         if (it.isSuccessful) {
-                            _cardGallery.postValue(Resource.success(it.body()?.listCard))
+                            _cardGallery.postValue(Resource.success(it.body()))
                         } else _cardGallery.postValue(
                             Resource.error(
                                 it.errorBody().toString(),
