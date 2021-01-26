@@ -1,4 +1,4 @@
-package foit.product.loranalyst.ui.gallery
+package foit.product.loranalyst.ui.detail
 
 import android.os.Bundle
 import android.view.LayoutInflater

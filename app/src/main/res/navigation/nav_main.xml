@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/cardDetailFragment"
-        android:name="foit.product.loranalyst.ui.gallery.CardDetailFragment"
+        android:name="foit.product.loranalyst.ui.detail.CardDetailFragment"
         android:label="CardDetailFragment"
         tools:layout="@layout/fragment_card_detail" />
 </navigation>
